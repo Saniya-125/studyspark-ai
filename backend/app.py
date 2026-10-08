@@ -1,9 +1,3 @@
-"""Flask API for StudySpark AI.
-
-The generation pipeline is intentionally kept in one function so an LLM provider
-can be added later without changing the upload contract or the React app.
-"""
-
 from __future__ import annotations
 
 import io
@@ -268,7 +262,7 @@ def generate() -> tuple[Any, int]:
 def too_large(_error: Any) -> tuple[Any, int]:
     return jsonify({"error": "That PDF is too large. Please upload one under 12 MB."}), 413
 
-
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", "5000"))
-    app.run(host="0.0.0.0", port=port, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
