@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://studyspark-backend-t21f.onrender.com/api/:path*"
+    }
+  ]
+}
