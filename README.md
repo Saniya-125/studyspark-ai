@@ -1,6 +1,5 @@
-# StudySpark AI — JavaScript source
+# StudySpark AI:
 
-StudySpark turns a study PDF into a concise summary, exactly 10 quiz questions, and exactly 15 flashcards. This download contains the complete runnable website source and Flask API. The frontend uses JavaScript/JSX; you do not need TypeScript.
 
 ## Requirements
 
