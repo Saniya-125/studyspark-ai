@@ -1,11 +1,13 @@
 # StudySpark AI:
 
-
+AI-powered study platform built with React, Python Flask, and AI to generate study summaries, quizzes, and flashcards.
 ## Requirements
 
 - Node.js (LTS recommended) and npm
 - Python 3.10 or newer
+- Tech stack: React · JavaScript · Python · Flask
 - VS Code is optional
+
 
 ## Run the backend
 
